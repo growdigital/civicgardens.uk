@@ -1,5 +1,6 @@
 baseurl = "https://www.civicgardens.uk/"
 title = "Civic Gardens UK"
+strapline = "Help grow forest gardens in the heart of UK communities 💚"
 theme = "civic-universal"
 themesDir = "themes"
 languageCode = "en-gb"
@@ -61,12 +62,12 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    author = "Jake Rayson"
+    defaultKeywords = ["ForestGarden", "Community"]
+    defaultDescription = "Community forest garden resource"
 
     # Twitter
-    twitter = "GoHugoIO"
+    twitter = "CivicGardensUK"
     twitterImage = "img/twitter-default.png"
 
     # Google Maps API key (if not set will default to not passing a key.)
@@ -117,9 +118,10 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Email us <a href="mailto:hello@civicgardens.uk">hello@civicgardens.uk</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Contact via email <a href="mailto:hello@civicgardens.uk">hello@civicgardens.uk</a> or phone <a href="tel:447398474064">07398 474 064</a></p>
+      <p class="hidden-md hidden-lg">
+      <a href="tel:447398474064" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+      <a href="mailto:hello@civicgardens.uk" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
       """
 
