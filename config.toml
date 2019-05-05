@@ -1,6 +1,5 @@
 baseurl = "https://www.civicgardens.uk/"
 title = "Civic Gardens UK"
-strapline = "Help grow forest gardens in the heart of UK communities 💚"
 theme = "civic-universal"
 themesDir = "themes"
 languageCode = "en-gb"
@@ -22,6 +21,11 @@ paginate = 10
     name = "Home"
     url  = "/"
     weight = 1
+
+[[menu.main]]
+    name = "Resources"
+    url  = "/resources/"
+    weight = 2
 
 [[menu.main]]
     name = "About"
@@ -65,6 +69,7 @@ paginate = 10
     author = "Jake Rayson"
     defaultKeywords = ["ForestGarden", "Community"]
     defaultDescription = "Community forest garden resource"
+    description = "Help grow forest gardens in the heart of UK communities 💚"
 
     # Twitter
     twitter = "CivicGardensUK"
@@ -74,7 +79,7 @@ paginate = 10
     # googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "green"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -100,13 +105,8 @@ paginate = 10
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    address = """<p><strong>Civic Gardens UK</strong>
+        <br>United Kingdom
       </p>
       """
     latitude = "-12.043333"

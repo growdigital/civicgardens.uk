@@ -8,7 +8,9 @@
                     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
                     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo_small }}" alt="{{ .Title }} logo" class="visible-xs visible-sm">
                     <span class="sr-only">{{ .Title }} - {{ i18n "navHome" }}</span>
+                    <small>{{ .Site.Params.description }}</small>
                 </a>
+
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
                       <span class="sr-only">{{ i18n "navToggle" }}</span>
