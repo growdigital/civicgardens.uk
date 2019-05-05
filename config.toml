@@ -23,14 +23,9 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
-    weight = 2
-
-[[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
+    name = "About"
+    identifier = "about"
+    url  = "/about/"
     weight = 3
 
 [[menu.main]]
